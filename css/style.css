@@ -1,0 +1,87 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-image: url("https://i.stack.imgur.com/SvWWN.png");
+  color: #ffffff;
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.container_principal {
+  display: flex;
+
+  height: 100vh;
+}
+
+.container {
+  width: 50%;
+}
+
+.centralizar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.principal {
+  padding: 8rem;
+}
+
+.principal_logo {
+  font-size: 6rem;
+}
+
+.principal_titulo {
+  font-size: 3rem;
+}
+
+.principal_descricao {
+  margin: 3rem 0;
+}
+
+.principal_botao {
+  font-size: 1.6rem;
+  font-weight: 700;
+  width: 100%;
+  height: 6rem;
+  cursor: pointer;
+}
+
+.botoes {
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+}
+
+.card_total {
+  background: #ffffff;
+  max-width: 60rem;
+  overflow: hidden;
+}
+
+.card_cabecalho {
+  background-color: rgba(15, 34, 95, 0.719);
+  height: 25rem;
+}
+
+.card_pergunta {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.card_resposta {
+  color: #000000;
+  padding: 3rem 1.5rem;
+  min-height: 14rem;
+}
+
+.principal_botao,
+.card_total {
+  border-radius: 0.5rem;
+}
+
+.blur {
+  filter: blur(5px);
+}
